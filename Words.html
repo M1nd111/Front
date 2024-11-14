@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Words</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .brd {
+            display: flex;
+            align-items: baseline; /* Выравниваем по базовой линии */
+        }
+
+        .words {
+            color: red;
+            margin: 0 5px;
+        }
+
+        .A {
+            background-color: yellow;
+            position: relative;
+            top: -10px;
+            margin: 0 5px;
+        }
+
+        .HTML {
+            color: white;
+            background-color: green;
+            position: relative;
+            top: -10px;
+            margin: 0 5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="brd">
+
+    <h1 class="A">A</h1>
+    <h1 class="words">B</h1>
+    <h2 class="words">C</h2>
+    <h3 class="words">D</h3>
+    <h4 class="words">E</h4>
+
+    <h4 class="HTML">HTML</h4>
+
+    <h4 class="words">E</h4>
+    <h3 class="words">D</h3>
+    <h2 class="words">C</h2>
+    <h1 class="words">B</h1>
+    <h1 class="A">A</h1>
+
+</div>
+
+</body>
+</html>
+
