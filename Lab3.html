@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+
+    body {
+        height: 100%;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
+        min-height: 100vh;
+    }
+
+    .header {
+        background: #ccc;
+        padding: 10px 20px;
+        position: relative;
+    }
+
+    .logo-slogan {
+        display: inline-block;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 20px 20px;
+        position: relative;
+    }
+
+    .menu {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+    }
+
+    .menu a {
+        padding: 15px 30px;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .menu a:hover {
+        color: yellow;
+        background-color: #717171;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .images {
+        margin-bottom: 20px;
+    }
+
+    .image {
+        display: inline-block;
+        width: 20%;
+    }
+
+    .image-center {
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .images, .logos, .logo-container {
+        text-align: center;
+    }
+
+    .image, .side-image {
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .logo-container {
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .logo {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+
+    .text-with-image {
+        margin-bottom: 20px;
+    }
+
+    .text-content {
+        display: inline-block;
+        width: 65%;
+    }
+
+    .side-image {
+        display: inline-block;
+        width: 30%;
+        max-width: 200px;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .text-sections {
+        margin: 20px 50px;
+    }
+
+    .headline {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        margin-top: auto;
+        background: #333;
+        color: #fff;
+        padding: 10px 20px;
+        position: relative;
+        text-align: left;
+        height: 60px;
+    }
+
+    .contacts {
+        position: absolute;
+        right: 20px;
+        bottom: 30px;
+        color: #fff;
+        text-decoration: none;
+
+    }
+
+
+</style>
+
+<body>
+<header class="header">
+    <div class="logo-slogan">Top cars</div>
+    <nav class="menu">
+        <a href="#">Описание</a>
+        <a href="#">Список</a>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section class="images">
+        <img class="image" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6555daff0bda9c7cf1127234_6555db250bda9c7cf1127eec/scale_2400">
+        <img class="image-center" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6555daff0bda9c7cf1127234_6555db250bda9c7cf1127eed/scale_1200">
+        <img class="image" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6555daff0bda9c7cf1127234_6555db250bda9c7cf1127eee/scale_1200">
+    </section>
+
+    <section class="logos">
+        <div class="logo-container">
+            <img class="logo" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6555daff0bda9c7cf1127234_6555db250bda9c7cf1127eef/scale_1200">
+            <p>Описание 1</p>
+        </div>
+        <div class="logo-container">
+            <img class="logo" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6555daff0bda9c7cf1127234_6555db250bda9c7cf1127eef/scale_1200">
+            <p>Описание 2</p>
+        </div>
+        <div class="logo-container">
+            <img class="logo" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6555daff0bda9c7cf1127234_6555db250bda9c7cf1127eef/scale_1200">
+            <p>Описание 3</p>
+        </div>
+        <div class="logo-container">
+            <img class="logo" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6555daff0bda9c7cf1127234_6555db250bda9c7cf1127eef/scale_1200">
+            <p>Описание 4</p>
+        </div>
+    </section>
+
+    <section class="text-sections">
+        <div class="text-with-image">
+            <div class="text-content">
+                <h2 class="headline">Заголовок</h2>
+                <p>Итальянская компания Pagani славится своими спортивными автомобилями, а также их специальными версиями. Это эксклюзивные модели по очень высоким ценам.
+                    Самый дорогой автомобиль компании — Zonda HP Barchetta. Он появился в 2017 году, когда выпуск стоковой версии Zonda был завершён. Примечательно, что аббревиатура HP — это инициалы основателя компании Horacio Pagani. Всего было выпущено три экземпляра, только два из которых поступили в продажу. Barchetta отличается уникальным дизайном отделки кузова и интерьера.
+                    Технические характеристики Двигатель 7,3 л, бензин, атмосферник (789 л. с., 850 Н⋅м) Коробка передач Механическая, 6 ступеней Привод Задний Разгон до 100 км/ч 3,4 секунды
+                </p>
+            </div>
+            <img class="side-image" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6555daff0bda9c7cf1127234_6555db250bda9c7cf1127eed/scale_1200" alt="Изображение">
+        </div>
+        <h2 class="headline">Заголовок</h2>
+        <p>Некоторые эксперты называют легендарный гоночный болид DBR1 одним из важнейших автомобилей в истории британской компании. Он появился в 1956 году.
+            Именно благодаря этой модели Aston Martin впервые одержал победу в гонке “24 часа Ле-Мана” в 1959 году. А двумя годами ранее DBR1 выиграл гонку “1000 км Нюрбургринга”. В разные периоды времени этот болид пилотировали такие гонщики, как Кэрролл Шелби, Джек Брэбхем и Стирлинг Мосс. Машина была продана на аукционе в 2017 году.
+            Технические характеристики Двигатель 3 л, бензин, атмосферник (254 л. с.) Коробка передач Механическая, 5 ступеней Привод Задний Разгон до 100 км/ч 5,3 секунды
+        </p>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© Разуваев В.Ю., Б9122-09.03.04, 2024-2025</p>
+    <a href="mailto:example@mail.com" class="contacts">✉ Контакты</a>
+</footer>
+</body>
+</html>
